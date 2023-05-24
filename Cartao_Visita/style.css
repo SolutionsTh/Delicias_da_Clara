@@ -5,14 +5,14 @@
   font-family: Arial;
 }
 body{
-  background: #ffeded;
+  background: #FBE9EA;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
 @font-face {
   font-family: logo;
-  src: Url("../fonte/Yellowtail-Regular.ttf");
+  src: Url("../fonte/Ants\ Valley\ -\ Personal\ Use.otf");
 }
 a{
   text-decoration: none;
@@ -56,17 +56,19 @@ a{
   margin: 7px;
 }
 .link{
+  background: #FFBFAA;
+  color: #4C3933;
   min-width: 350px;
-  background-color: #FFBFAA;
   border-radius: 50px;
   text-align: center;
   padding: 10px;
   margin: auto;
-  color: #ffffff;
   font-size: 16px;
   font-weight: bolder;
 }
 
 .link:hover{
-  box-shadow: 0px 0px 5px 5px #E5AB99;
+  color: #FFBFAA;
+  background: #4C3933;
+  box-shadow: 0px 0px 6px 6px #E5AB99;
 }

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="icon" href="../img/icons/logoCirculo.png"type="image/x-icon">
+  <link rel="icon" href="../Img/Icons/logoCirculo.png"type="image/x-icon">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
   <link rel="stylesheet" href="style.css">
@@ -15,7 +15,7 @@
   <title>Delícias da Clara | Cardápio</title>
 </head>
 
-<body>
+<body onpageshow="randomImg()">
   <section class="conteudoTopo">
     <h1 class="nomeTopo">Delícias da Clara</h1>
   </section>
@@ -28,8 +28,8 @@
         <div class="conteudoGrupoCardapio">
           <div class="cardapio">
             <div class="cardapioParte1">
-              <p class="cardapioNome">Homem Aranha</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/HomemAranha/0001.jpg" alt="" width="200px"></p>
+              <p class="cardapioNome" id="cardapioNome1">Homem Aranha</p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_01_01" src="../Img/Main/HomemAranha/0001.jpg" alt="" width="200px" ></p>
             </div>
             <div class="cardapioParte2">
               <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
@@ -40,7 +40,7 @@
           <div class="cardapio">
             <div class="cardapioParte1">
               <p class="cardapioNome">Sonic</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/Sonic/0001.jpg" alt="" width="200px"></p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_01_02" src="../Img/Main/Sonic/0001.jpg" alt="" width="200px"></p>
             </div>
             <div class="cardapioParte2">
               <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
@@ -48,52 +48,6 @@
               <p class="cardapioWpp"><a type="button" href="fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
             </div>
           </div>
-          <!--  -->
-          <div class="cardapio">
-            <div class="cardapioParte1">
-              <p class="cardapioNome">Homem Aranha</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/HomemAranha/0001.jpg" alt="" width="200px"></p>
-            </div>
-            <div class="cardapioParte2">
-              <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
-              <br>
-              <p class="cardapioWpp"><a type="button" href="fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
-            </div>
-          </div>
-          <div class="cardapio">
-            <div class="cardapioParte1">
-              <p class="cardapioNome">Sonic</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/Sonic/0001.jpg" alt="" width="200px"></p>
-            </div>
-            <div class="cardapioParte2">
-              <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
-              <br>
-              <p class="cardapioWpp"><a type="button" href="fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
-            </div>
-          </div>
-          <div class="cardapio">
-            <div class="cardapioParte1">
-              <p class="cardapioNome">Homem Aranha</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/HomemAranha/0001.jpg" alt="" width="200px"></p>
-            </div>
-            <div class="cardapioParte2">
-              <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
-              <br>
-              <p class="cardapioWpp"><a type="button" href="fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
-            </div>
-          </div>
-          <div class="cardapio">
-            <div class="cardapioParte1">
-              <p class="cardapioNome">Sonic</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/Sonic/0001.jpg" alt="" width="200px"></p>
-            </div>
-            <div class="cardapioParte2">
-              <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
-              <br>
-              <p class="cardapioWpp"><a type="button" href="fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
-            </div>
-          </div>
-          <!--  -->
         </div>
       </div>
     </div>
@@ -106,7 +60,7 @@
           <div class="cardapio">
             <div class="cardapioParte1">
               <p class="cardapioNome">Masculino Adulto</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/MasculinoAdulto/0001.jpg" alt="" width="200px"></p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_02_01" src="../Img/Main/MasculinoAdulto/0001.jpg" alt="" width="200px"></p>
             </div>
             <div class="cardapioParte2">
               <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
@@ -117,7 +71,7 @@
           <div class="cardapio">
             <div class="cardapioParte1">
               <p class="cardapioNome">Viking</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/Viking/0001.jpg" alt="" width="200px"></p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_02_02" src="../Img/Main/Viking/0001.jpg" alt="" width="200px"></p>
             </div>
             <div class="cardapioParte2">
               <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
@@ -128,7 +82,7 @@
           <div class="cardapio">
             <div class="cardapioParte1">
               <p class="cardapioNome">Natal</p>
-              <p class="cardapioImagem"><img class="cardapioImagemIcone" src="../img/bolos/Natal/0001.jpg" alt="" width="200px"></p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_02_03" src="../Img/Main/Natal/0001.jpg" alt="" width="200px"></p>
             </div>
             <div class="cardapioParte2">
               <p class="cardapioValor"><b>Valor:</b> R$ 100,00</p>
@@ -143,6 +97,7 @@
   
 
   <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="randomImg.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
