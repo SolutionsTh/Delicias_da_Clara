@@ -53,7 +53,7 @@ a{
   /* background: #dc617c; */
   background: #C6576E;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(181px, 1fr));
   padding: 5px;
   border-radius: 5px 5px 12px 12px;
 }
@@ -63,7 +63,7 @@ a{
   /* background: #00000028; */
   /* background: #ffffff9d; */
   background: #ffffff3e;
-  padding: 10px 10px 91px 10px;
+  padding: 10px 10px 169px 10px;
   border-radius: 15px;
   border:  #C6576E solid 1px;
   position: relative;
@@ -90,13 +90,17 @@ a{
 }
 .cardapioImagem{
   display: flex;
-  min-height: 257px;
+  min-height: 197px;
 }
 .cardapioImagemIcone{
   margin: auto;
 }
 .cardapioWpp{
   text-align: center;
+}
+#tituloCardapioValor{
+  font-size: 18px;
+  padding: 3px 0px;
 }
 .link{
   background: #FFBFAA;
