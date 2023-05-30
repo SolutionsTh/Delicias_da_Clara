@@ -1,4 +1,12 @@
-setInterval(numImg, 3000)
+document.getElementById('vejaMaisHomemAranha').onclick = function() {
+    cardapioNome = 'HomemAranha'
+};
+
+
+function iframeImg() {
+    document.getElementById('vejaMais').innerHTML = '';
+
+}
 
 function numImg() {
     var cardapioImagemIcone_01_01 = document.getElementById("cardapioImagemIcone_01_01").className.replace("cardapioImagemIcone img","");

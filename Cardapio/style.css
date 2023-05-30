@@ -34,8 +34,11 @@ a{
 }
 
 .conteudoCardapio{
+  display: block;
   width: 95%;
   margin: 30px auto;
+}.conteudoCardapioNone{
+  display: none;
 }
 .descricaoCardapio{
   /* background: #FFBFAA; */
@@ -64,7 +67,7 @@ a{
   /* background: #00000028; */
   /* background: #ffffff9d; */
   background: #ffffff3e;
-  padding: 10px 10px 146px 10px;
+  padding: 10px 10px 177px 10px;
   border-radius: 15px;
   border:  #C6576E solid 1px;
   position: relative;
@@ -89,6 +92,11 @@ a{
   font-weight: bolder;
   font-size: 15px;
 }
+.tituloCardapioValor{
+  text-align: left;
+  padding-left: 3px;
+  font-size: 15px;
+}
 .cardapioDescricao{
   line-height: 20px;
   text-align: justify;
@@ -101,6 +109,10 @@ a{
   margin: auto;
 }
 .cardapioWpp{
+  margin-top: 15px;
+  text-align: center;
+}
+.cardapioMais{
   text-align: center;
 }
 #tituloCardapioValor{
@@ -117,6 +129,34 @@ a{
   font-size: 14px;
   font-weight: bolder;
 }
+
+
+
+.vejaMais{
+  display: grid;
+  padding: 10px;
+}
+.conteudoImagemGrande{
+  margin: auto;
+  padding: 10px;
+}
+.imagemGrande{
+  height: calc(80vh - 69px);
+}
+.conteudoImagens{
+  margin: auto;
+}
+.conteudoImagens{
+  display: flex
+}
+.conteudoImagempequena{
+  padding: 2px;
+}
+.imagemPequena{
+  height: 15vh;
+}
+
+
 
 @media only screen and (max-width: 800px){
   body{
