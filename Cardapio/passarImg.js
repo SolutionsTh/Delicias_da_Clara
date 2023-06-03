@@ -1,4 +1,4 @@
-document.getElementById('vejaMaisHomemAranha').onclick = function() {
+/* document.getElementById('vejaMaisHomemAranha').onclick = function() {
     cardapioNome = 'HomemAranha'
 };
 
@@ -6,7 +6,7 @@ document.getElementById('vejaMaisHomemAranha').onclick = function() {
 function iframeImg() {
     document.getElementById('vejaMais').innerHTML = '';
 
-}
+} */
 
 function numImg() {
     var cardapioImagemIcone_01_01 = document.getElementById("cardapioImagemIcone_01_01").className.replace("cardapioImagemIcone img","");
