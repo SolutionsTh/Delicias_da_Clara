@@ -143,6 +143,9 @@ a{
   background-color: #00000051;
   height: calc(100vh - 69px);
 }
+.vejaMaisNone{
+	display: none;
+}
 .conteudoImagemGrande{
   margin: auto;
   padding: 10px;
