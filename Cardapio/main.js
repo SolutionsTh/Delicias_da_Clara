@@ -1,7 +1,10 @@
 function abrirIframeImg(){
     document.getElementById('conteudoCardapio').className = 'conteudoCardapioNone';
+    document.getElementById('vejaMais').className = 'vejaMais';
+
 }
 function fecharIframeImg(){
+    document.getElementById('vejaMais').className = 'vejaMaisNone';
     document.getElementById('conteudoCardapio').className = 'conteudoCardapio';
 }
 function botaoOverProxima(){
