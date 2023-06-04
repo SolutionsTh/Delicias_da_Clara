@@ -5,7 +5,7 @@
   font-family: Arial;
 }
 body{
-  background: #FBE9EA;
+  background: #FBEFF1; /* 1 tom antes do branco principal */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -34,14 +34,14 @@ a{
   height: 150px;
   width: 150px;
   margin: auto;
-  box-shadow: 0px 0px 40px 2px  #DC617B;
+  box-shadow: 0px 0px 40px 2px  #DC617B; /* tom princial original */
   padding: 1px;
   background-color: #ffffff;
 }
 
 .nomeNegocio{
   text-align: center;
-  color: #DC617B;
+  color: #DC617B; /* tom princial original */
   font-size: 50px;
   padding: 10px 5px;
   font-family: logo;
@@ -56,8 +56,8 @@ a{
   margin: 7px;
 }
 .link{
-  background: #FFBFAA;
-  color: #4C3933;
+  background: #FFBFAA; /* tom secundario original */
+  color: #4C3933; /* 4 tons antes do preto secundario */
   min-width: 350px;
   border-radius: 50px;
   text-align: center;
@@ -68,7 +68,7 @@ a{
 }
 
 .link:hover{
-  color: #FFBFAA;
-  background: #4C3933;
-  box-shadow: 0px 0px 6px 6px #E5AB99;
+  color: #FFBFAA; /* tom secundario original */
+  background: #4C3933; /* 4 tons antes do preto secundario */
+  box-shadow: 0px 0px 6px 6px #E5AB99; /* 1 tom mais escuro secundario */
 }
