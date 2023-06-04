@@ -13,6 +13,9 @@ body{
 @font-face {
   font-family: logo;
   src: Url("../fonte/Ants\ Valley\ -\ Personal\ Use.otf");
+}.nomeNegocio{
+  font-family: logo;
+  font-size: 50px;
 }
 a{
   text-decoration: none;
@@ -42,9 +45,7 @@ a{
 .nomeNegocio{
   text-align: center;
   color: #DC617B; /* tom princial original */
-  font-size: 50px;
   padding: 10px 5px;
-  font-family: logo;
 }
 
 .conteudoLinks{
