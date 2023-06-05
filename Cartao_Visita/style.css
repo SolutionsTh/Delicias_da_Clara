@@ -12,7 +12,7 @@ body{
 }
 @font-face {
   font-family: logo;
-  src: Url("../fonte/Ants\ Valley\ -\ Personal\ Use.otf");
+  src: Url("../Fonte/Ants Valley - Personal Use.otf");
 }.nomeNegocio{
   font-family: logo;
   font-size: 50px;
