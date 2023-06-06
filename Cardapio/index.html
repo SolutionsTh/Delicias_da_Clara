@@ -19,7 +19,7 @@
   <section class="conteudoTopo">
     <h1 class="nomeTopo">Delícias da Clara</h1>
   </section>
-  <section class="conteudoCardapio" id="conteudoCardapio">
+  <section class="conteudoCardapioNone" id="conteudoCardapio">
     <div class="descricaoCardapio">
       <div class="cardapioNomeGrupo">
         <div class="conteudoNomeGrupo">
@@ -37,7 +37,7 @@
               <p class="cardapioValor"><b>Aro 22:</b> R$ 120,00</p>
               <p class="cardapioValor"><b>Aro 30:</b> R$ 150,00</p>
               <br>
-              <p class="botao cardapioBotao cardapioMais"><a type="button" class="link" id="vejaMaisHomemAranha" onclick="abrirIframeImg()">Ver Mais</a></p>
+              <p class="botao cardapioBotao cardapioMais"><a type="button" class="link" id="vejaMais01_01" onclick="abrirIframeImg() " onclick="VerMais() ">Ver Mais</a></p>
               <p class="botao cardapioBotao cardapioWpp"><a type="button" href="https://wa.me/5521964575188?text=Olá!!%0AGostaria de pedir um bolo do *Homem Aranha*.%0AAro:" target="_blank" class="link">Peça já!</a></p>
             </div>
           </div>
@@ -114,29 +114,33 @@
       </div>
     </div>
   </section>
-  <section class="vejaMaisNone" id="vejaMais">
-    <div class="conteudoImagemGrande">
-      <div class="conteudoBotaoImg conteudoBotaoVoltarImg">
-        <span class="botao botaImg material-icons botaoVoltarImg" id="botaoVoltarImg" onclick="voltarImgIframeImg()"onmouseover="botaoOverVoltar()" onmouseout="botaoOutVoltar()">arrow_back_ios</span>
+  <section class="vejaMais" id="vejaMais">
+    <section class="conteudoImagemGrande">
+      <div class="imagemGrande">
+        <div class="conteudoBotaoImg conteudoBotaoVoltarImg">
+          <span class="botao botaImg material-icons botaoVoltarImg" id="botaoVoltarImg" onclick="voltarImgIframeImg()"onmouseover="botaoOverVoltar()" onmouseout="botaoOutVoltar()">arrow_back_ios</span>
+        </div>
+        <img src="../Img/Main/HomemAranha/0001.jpg" alt="" class="descricaoImagemGrande" id="descricaoImagemGrande">
+        <div class="conteudoBotaoImg conteudoBotaoProximaImg">
+          <span class="botao botaImg material-icons botaoProximaImg" id="botaoProximaImg" onclick="proximaImgIframeImg()" onmouseover="botaoOverProxima()" onmouseout="botaoOutProxima()">arrow_forward_ios</span>
+        </div>
+        <div class="conteudoBotaoFechar">
+          <span class="botao material-icons botaoFechar" id="botaoFechar" onclick="fecharIframeImg()">close</span>
+        </div>
       </div>
-      <img src="../Img/Main/HomemAranha/0001.jpg" alt="" class="imagemGrande">
-      <div class="conteudoBotaoImg conteudoBotaoProximaImg">
-        <span class="botao botaImg material-icons botaoProximaImg" id="botaoProximaImg" onclick="proximaImgIframeImg()" onmouseover="botaoOverProxima()" onmouseout="botaoOutProxima()">arrow_forward_ios</span>
+    </section>
+    <section class="conteudoImagens">
+      <div class="imagemPequena">
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0001.jpg" alt="" class="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0002.jpg" alt="" class="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0003.jpg" alt="" class="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0004.jpg" alt="" class="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0005.jpg" alt="" class="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0006.jpg" alt="" class="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0007.jpg" alt="" class="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0008.jpg" alt="" class="descricaoImagemPequena"></div>
       </div>
-      <div class="conteudoBotaoFechar">
-        <span class="botao material-icons botaoFechar" id="botaoFechar" onclick="fecharIframeImg()">close</span>
-      </div>
-    </div>
-    <div class="conteudoImagens">
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0001.jpg" alt="" class="imagemPequena"></div>
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0002.jpg" alt="" class="imagemPequena"></div>
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0003.jpg" alt="" class="imagemPequena"></div>
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0004.jpg" alt="" class="imagemPequena"></div>
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0005.jpg" alt="" class="imagemPequena"></div>
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0006.jpg" alt="" class="imagemPequena"></div>
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0007.jpg" alt="" class="imagemPequena"></div>
-      <div class="conteudoImagempequena"><img src="../Img/Main/HomemAranha/0008.jpg" alt="" class="imagemPequena"></div>
-    </div>
+    </section>
   </section>
   
 

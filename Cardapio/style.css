@@ -137,7 +137,7 @@ a{
 
 
 .vejaMais{
-  display: grid;
+  display: block;
   padding: 10px;
   position: relative;
   background-color: #00000051;
@@ -145,31 +145,6 @@ a{
 }
 .vejaMaisNone{
 	display: none;
-}
-.conteudoImagemGrande{
-  margin: auto;
-  padding: 10px;
-  display: flex;
-  height: calc(80vh - 69px);
-  background-color: #00000063;
-  border-radius: 10px;
-}
-
-.botaImg{
-  font-size: 25px;
-  margin: auto;
-  padding: 5px;
-}
-.botaImg{
-  font-size: 25px;
-  margin: auto;
-  padding: 5px;
-}
-.conteudoBotaoVoltarImg{
-  margin: auto;
-}
-.conteudoBotaoProximaImg{
-  margin: auto;
 }
 
 .conteudoBotaoFechar{
@@ -192,19 +167,72 @@ a{
   font-size: 32px;
 }
 
+
+.conteudoImagemGrande{
+  display: flex;
+  margin: auto;
+}
+.imagemGrande{
+  display: grid;
+  grid-template-columns: 30px auto 30px;
+  margin: auto;
+  height: calc(80vh - 69px);
+  min-width: 40vw;
+  background-color: #00000063;
+  padding: 5px;
+  border-radius: 10px;
+}
+.conteudoBotaoImg{
+  margin: auto;
+  background-color: #B04D62;
+  display: flex;
+}
+.descricaoImagemGrande{
+  max-width: 70vw;
+  max-height: 60vh;
+  margin: auto;
+}
+
+.botaImg{
+  font-size: 25px;
+  margin: auto;
+  padding: 5px;
+}
+.botaImg{
+  font-size: 25px;
+  margin: auto;
+  padding: 5px;
+}
+.conteudoBotaoVoltarImg{
+  margin: auto;
+}
+.conteudoBotaoProximaImg{
+  margin: auto;
+}
+
+
 .conteudoImagens{
   margin: 7px auto 0px auto;
   padding: 5px;
   background-color: #00000063;
   border-radius: 5px;
+  display: flex;
+  overflow: scroll;
+}
+.conteudoImagens::-webkit-scrollbar{
+  display: none;
 }
 .conteudoImagens{
-  display: flex
+  display: flex;
+}
+.imagemPequena{
+  display: flex;
+  margin: auto;
 }
 .conteudoImagempequena{
   padding: 2px;
 }
-.imagemPequena{
+.descricaoImagemPequena{
   height: 15vh;
 }
 
