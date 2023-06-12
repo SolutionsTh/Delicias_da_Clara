@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="../Img/Icons/logoCirculo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cores.css">
+
+  <title>Delícias da Clara | Cardápio</title>
+</head>
+
+<body onpageshow="randomImg()">
+  <section class="conteudoTopo">
+    <h1 class="nomeTopo">Delícias da Clara</h1>
+  </section>
+  <section class="conteudoCardapio" id="conteudoCardapio">
+    <div class="descricaoCardapio">
+      <div class="cardapioNomeGrupo">
+        <div class="conteudoNomeGrupo">
+          <h2 class="nomeGrupo">Heróis</h2>
+        </div>
+        <div class="conteudoGrupoCardapio">
+          <div class="cardapio">
+            <div class="cardapioParte1">
+              <p class="cardapioNome">Homem Aranha</p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_01_01" src="../Img/Main/HomemAranha/0001.jpg" alt="" width="100px"></p>
+            </div>
+            <div class="cardapioParte2">
+              <p class="cardapioValor tituloCardapioValor"><b>Valores:</b></p>
+              <p class="cardapioValor"><b>Aro 16:</b> R$ 90,00</p>
+              <p class="cardapioValor"><b>Aro 22:</b> R$ 120,00</p>
+              <p class="cardapioValor"><b>Aro 30:</b> R$ 150,00</p>
+              <br>
+              <p class="botao cardapioBotao cardapioMais"><a type="button" class="link" id="vejaMais01_01" onclick="abrirIframeImg()">Ver Mais</a></p>
+              <p class="botao cardapioBotao cardapioWpp"><a type="button" href="https://wa.me/5521964575188?text=Olá!!%0AGostaria de pedir um bolo do *Homem Aranha*.%0AAro:" target="_blank" class="link">Peça já!</a></p>
+            </div>
+          </div>
+          <div class="cardapio">
+            <div class="cardapioParte1">
+              <p class="cardapioNome">Sonic</p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_01_02" src="../Img/Main/Sonic/0001.jpg" alt="" width="100px"></p>
+            </div>
+            <div class="cardapioParte2">
+              <p class="cardapioValor tituloCardapioValor"><b>Valores:</b></p>
+              <p class="cardapioValor"><b>Aro 16:</b> R$ 90,00</p>
+              <p class="cardapioValor"><b>Aro 22:</b> R$ 120,00</p>
+              <p class="cardapioValor"><b>Aro 30:</b> R$ 150,00</p>
+              <br>
+              <p class="botao cardapioBotao cardapioMais"><a type="button" class="link" id="vejaMais01_02" onclick="abrirIframeImg()">Ver Mais</a></p>
+              <p class="botao cardapioBotao cardapioWpp"><a type="button" href="https://wa.me/5521964575188?text=Olá!!%0AGostaria de pedir um bolo do *Sonic*.%0AAro:" target="_blank" class="link">Peça já!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="descricaoCardapio">
+      <div class="cardapioNomeGrupo">
+        <div class="conteudoNomeGrupo">
+          <h2 class="nomeGrupo">Diversos</h2>
+        </div>
+        <div class="conteudoGrupoCardapio">
+          <div class="cardapio">
+            <div class="cardapioParte1">
+              <p class="cardapioNome">Masculino Adulto</p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_02_01" src="../Img/Main/MasculinoAdulto/0001.jpg" alt="" width="100px"></p>
+            </div>
+            <div class="cardapioParte2">
+              <p class="cardapioValor tituloCardapioValor"><b>Valores:</b></p>
+              <p class="cardapioValor"><b>Aro 16:</b> R$ 90,00</p>
+              <p class="cardapioValor"><b>Aro 22:</b> R$ 120,00</p>
+              <p class="cardapioValor"><b>Aro 30:</b> R$ 150,00</p>
+              <br>
+              <p class="botao cardapioBotao cardapioMais"><a type="button" href="Veja_Mais/fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
+              <p class="botao cardapioBotao cardapioWpp"><a type="button" href="https://wa.me/5521964575188?text=Olá!!%0AGostaria de pedir um bolo do *Masculino Adulto*.%0AAro:" target="_blank" class="link">Peça já!</a></p>
+            </div>
+          </div>
+          <div class="cardapio">
+            <div class="cardapioParte1">
+              <p class="cardapioNome">Viking</p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_02_02" src="../Img/Main/Viking/0001.jpg" alt="" width="100px"></p>
+            </div>
+            <div class="cardapioParte2">
+              <p class="cardapioValor tituloCardapioValor"><b>Valores:</b></p>
+              <p class="cardapioValor"><b>Aro 16:</b> R$ 90,00</p>
+              <p class="cardapioValor"><b>Aro 22:</b> R$ 120,00</p>
+              <p class="cardapioValor"><b>Aro 30:</b> R$ 150,00</p>
+              <br>
+              <p class="botao cardapioBotao cardapioMais"><a type="button" href="Veja_Mais/fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
+              <p class="botao cardapioBotao cardapioWpp"><a type="button" href="https://wa.me/5521964575188?text=Olá!!%0AGostaria de pedir um bolo do *Viking*.%0AAro:" target="_blank" class="link">Peça já!</a></p>
+            </div>
+          </div>
+          <div class="cardapio">
+            <div class="cardapioParte1">
+              <p class="cardapioNome">Natal</p>
+              <p class="cardapioImagem"><img class="cardapioImagemIcone img1" id="cardapioImagemIcone_02_03" src="../Img/Main/Natal/0001.jpg" alt="" width="100px"></p>
+            </div>
+            <div class="cardapioParte2">
+              <p class="cardapioValor tituloCardapioValor"><b>Valores:</b></p>
+              <p class="cardapioValor"><b>Aro 16:</b> R$ 90,00</p>
+              <p class="cardapioValor"><b>Aro 22:</b> R$ 120,00</p>
+              <p class="cardapioValor"><b>Aro 30:</b> R$ 150,00</p>
+              <br>
+              <p class="botao cardapioBotao cardapioMais"><a type="button" href="Veja_Mais/fotosBolo.html" target="_blank" class="link">Ver Mais</a></p>
+              <p class="botao cardapioBotao cardapioWpp"><a type="button" href="https://wa.me/5521964575188?text=Olá!!%0AGostaria de pedir um bolo do *Natal*.%0AAro:" target="_blank" class="link">Peça já!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="vejaMaisNone" id="vejaMais">
+    <section class="conteudoImagemGrande">
+      <div class="imagemGrande">
+        <div class="conteudoBotaoImg conteudoBotaoVoltarImg">
+          <span class="botao botaImg material-icons botaoVoltarImg" id="botaoVoltarImg" onclick="voltarImgIframeImg()"onmouseover="botaoOverVoltar()" onmouseout="botaoOutVoltar()">arrow_back_ios</span>
+        </div>
+        <img src="../Img/Main/HomemAranha/0001.jpg" alt="" class="descricaoImagemGrande" id="descricaoImagemGrande">
+        <div class="conteudoBotaoImg conteudoBotaoProximaImg">
+          <span class="botao botaImg material-icons botaoProximaImg" id="botaoProximaImg" onclick="proximaImgIframeImg()" onmouseover="botaoOverProxima()" onmouseout="botaoOutProxima()">arrow_forward_ios</span>
+        </div>
+        <div class="conteudoBotaoFechar">
+          <span class="botao material-icons botaoFechar" id="botaoFechar" onclick="fecharIframeImg()">close</span>
+        </div>
+      </div>
+    </section>
+    <section class="conteudoImagens">
+      <div class="imagemPequena">
+        <div class="conteudoImagempequena conteudoImagempequena0001" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0001.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0002" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0002.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0003" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0003.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0004" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0004.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0005" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0005.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0006" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0006.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0007" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0007.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0008" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0008.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0009" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0009.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0010" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0010.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0011" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0011.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0012" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0012.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0013" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0013.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0014" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0014.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0015" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0015.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+        <div class="conteudoImagempequena conteudoImagempequena0016" id="conteudoImagempequena"><img src="../Img/Main/cardapioClasse/0016.jpg" alt="" class="descricaoImagemPequena" id="descricaoImagemPequena"></div>
+      </div>
+    </section>
+  </section>
+  
+
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="main.js"></script>
+  <script src="randomizarImg.js"></script>
+  <script src="randomizarImgPequena.js"></script>
+  <script src="proximaImg.js"></script>
+  <script src="voltarImg.js"></script>
+</body>
+</html>

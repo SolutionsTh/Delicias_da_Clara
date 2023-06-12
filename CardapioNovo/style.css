@@ -1,0 +1,267 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body{
+  background: #FBE9EA;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+  color: #ffffff;
+  font-size: 13px;
+}
+a{
+  text-decoration: none;
+}
+.botao{
+  cursor: pointer;
+}
+
+
+.conteudoTopo{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 10px 25px;
+	background:url(../Img/Background/BackgroundTopo.png);
+  background-size: cover;
+  background-position: center;
+}
+.nomeTopo{
+  font-size: 32px;
+  text-align: center;
+  padding: 6px 0 6px 0;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.conteudoCardapio{
+  display: block;
+  width: 95%;
+  margin: 30px auto;
+}.conteudoCardapioNone{
+  display: none;
+}
+.descricaoCardapio{
+  /* background: #FFBFAA; */
+  background: #B04D62;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 15px;
+}
+.nomeGrupo{
+  /* color: #DC617B; */
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.conteudoGrupoCardapio{
+  /* background: #dc617c8e; */
+  /* background: #dc617c; */
+  background: #C6576E;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  padding: 5px;
+  border-radius: 5px 5px 12px 12px;
+}
+.cardapio{
+  margin: 5px auto;
+  /* background: #DC617B55; */
+  /* background: #00000028; */
+  /* background: #ffffff9d; */
+  background: #ffffff3e;
+  padding: 10px 10px 177px 10px;
+  border-radius: 15px;
+  border:  #C6576E solid 1px;
+  position: relative;
+  min-width: 140px;
+}
+.cardapioParte1{
+  padding-bottom: 10px;
+}
+.cardapioParte2{
+  border-top: #C6576E solid 1px;
+  padding: 5px 5px 20px 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.cardapioNome, .cardapioValor, .cardapioDescricao, .cardapioImagem{
+  text-align: center;
+  padding: 3px 0px;
+}
+.cardapioNome{
+  font-weight: bolder;
+  font-size: 15px;
+}
+.tituloCardapioValor{
+  text-align: left;
+  padding-left: 3px;
+  font-size: 15px;
+}
+.cardapioDescricao{
+  line-height: 20px;
+  text-align: justify;
+}
+.cardapioImagem{
+  display: flex;
+  min-height: 135px;
+}
+.cardapioImagemIcone{
+  margin: auto;
+}
+.cardapioWpp{
+  margin-top: 15px;
+  text-align: center;
+}
+.cardapioMais{
+  text-align: center;
+}
+#tituloCardapioValor{
+  font-size: 15px;
+  padding: 3px 0px;
+}
+.link{
+  background: #FFBFAA;
+  color: #4C3933;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px 10px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+
+
+.vejaMais{
+  display: block;
+  padding: 10px;
+  position: relative;
+  background-color: #00000051;
+  height: calc(100vh - 69px);
+}
+.vejaMaisNone{
+	display: none;
+}
+
+.conteudoBotaoFechar{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.botaoFechar{
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.botaoFechar:hover{
+  background-color: #000000;
+  color: #ff0000;
+  padding: 1px;
+  margin: 10px;
+  font-size: 32px;
+}
+
+
+.conteudoImagemGrande{
+  display: flex;
+  margin: auto;
+}
+.imagemGrande{
+  display: grid;
+  grid-template-columns: 30px auto 30px;
+  margin: auto;
+  height: calc(80vh - 69px);
+  min-width: 40vw;
+  background-color: #00000063;
+  padding: 5px;
+  border-radius: 10px;
+}
+.conteudoBotaoImg{
+  margin: auto;
+  background-color: #B04D62;
+  display: flex;
+}
+.descricaoImagemGrande{
+  max-width: 70vw;
+  max-height: 60vh;
+  margin: auto;
+}
+
+.botaImg{
+  font-size: 25px;
+  margin: auto;
+  padding: 5px;
+}
+.botaImg{
+  font-size: 25px;
+  margin: auto;
+  padding: 5px;
+}
+.conteudoBotaoVoltarImg{
+  margin: auto;
+}
+.conteudoBotaoProximaImg{
+  margin: auto;
+}
+
+
+.conteudoImagens{
+  margin: 7px auto 0px auto;
+  padding: 5px;
+  background-color: #00000063;
+  border-radius: 5px;
+  display: flex;
+  overflow: scroll;
+}
+.conteudoImagens::-webkit-scrollbar{
+  display: none;
+}
+.conteudoImagens{
+  display: flex;
+}
+.imagemPequena{
+  display: flex;
+  margin: auto;
+}
+.conteudoImagempequena{
+  padding: 2px;
+}
+.descricaoImagemPequena{
+  height: 15vh;
+  background: #ff0000;
+}
+
+
+
+@media only screen and (max-width: 800px){
+  body{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 800px){
+  .descricaoCardapio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 563px){
+  .descricaoCardapio{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 204px){
+  .descricaoCardapio, .conteudoGrupoCardapio{
+    display: block;
+    overflow: scroll;
+  }
+}
