@@ -1,4 +1,4 @@
-setInterval(proximaImgIframeImg, 10000)
+/* setInterval(proximaImgIframeImg, 10000) */
 function proximaImgIframeImg(){
     var cardapioNomes_01_ = ["", "HomemAranha", "Sonic"]
     var cardapioNomes_02_ = ["", "MasculinoAdulto", "Viking", "Natal"]
